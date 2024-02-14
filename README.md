@@ -1,2 +1,4 @@
 # Torsdagsopgaver-2-functions-and-objects
- Torsdags opgave uge 3
+ 
+Casper Gervig
+cph-cg201@cphbusiness.dk
