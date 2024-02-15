@@ -11,7 +11,7 @@ void setup() {
   }
   sum(2, 4);
   upperCase("hello");
-  stringTest("Hello");
+  stringTest("hello");
 }
 
 // 2.a
@@ -36,9 +36,19 @@ String upperCase(String input) {
 
 // 2.d
 
-boolean stringTest(String input){
+//boolean stringTest(String input){
+//  char firstChar = input.charAt(0);
+//  boolean stringTest = Character.isUpperCase(firstChar);
+//  println(stringTest);
+//  return stringTest;
+//}
+
+boolean stringTest(String input) {
+  boolean stringTest = false;
   char firstChar = input.charAt(0);
-  boolean stringTest = Character.isUpperCase(firstChar);
+  if (Character.isUpperCase(firstChar)) {
+    stringTest = true;
+  }
   println(stringTest);
   return stringTest;
 }
