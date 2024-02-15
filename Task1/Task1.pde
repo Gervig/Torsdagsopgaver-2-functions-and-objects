@@ -9,9 +9,8 @@ void helloMethod() {
   println("Hello from the method");
 }
 
-String helloStringMethod(String helloString) {
+void helloStringMethod(String helloString) {
   println(helloString);
-  return helloString;
 }
 
 void nameAndAge(int age, String name){
