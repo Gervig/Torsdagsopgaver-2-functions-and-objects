@@ -1,12 +1,12 @@
 // 1.a + 1.b + 1.c
 void setup() {
   helloMethod();
-  helloStringMethod("Hello World from the method");
+  helloStringMethod("Hello World");
   nameAndAge(32, "Casper");
 }
 
 void helloMethod() {
-  println("Hello from the method");
+  println("Hello World from the method");
 }
 
 void helloStringMethod(String helloString) {

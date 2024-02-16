@@ -9,9 +9,9 @@ void setup() {
   {
     println("I don't clap my hands");
   }
-  sum(2, 4);
-  upperCase("hello");
-  stringTest("hello");
+  println(sum(2,4));
+  println(upperCase("hello"));
+  println(stringTest("Hello"));
 }
 
 // 2.a
@@ -23,15 +23,12 @@ boolean iAmHappy() {
 // 2.b
 int sum(int a, int b) {
   int result = a + b;
-  println(result);
   return result;
 }
 
 // 2.c
 String upperCase(String input) {
-  input = input.toUpperCase();
-  println(input);
-  return input;
+  return input.toUpperCase();
 }
 
 // 2.d
@@ -49,6 +46,5 @@ boolean stringTest(String input) {
   if (Character.isUpperCase(firstChar)) {
     stringTest = true;
   }
-  println(stringTest);
   return stringTest;
 }
