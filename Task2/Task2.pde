@@ -41,10 +41,7 @@ String upperCase(String input) {
 //}
 
 boolean stringTest(String input) {
-  boolean stringTest = false;
   char firstChar = input.charAt(0);
-  if (Character.isUpperCase(firstChar)) {
-    stringTest = true;
-  }
+  boolean stringTest = Character.isUpperCase(firstChar);
   return stringTest;
 }
