@@ -13,7 +13,7 @@ void setup() {
   //teacher1.changeName("Tess");
   //println(teacher1.name);
   //  5.c
-  println("Are student1 and student2 on the same team? " + isClassmate(student1, student2));
+  println("Are " + student1.name +  " and " +  student2.name +  " on the same team? " + isClassmate(student1, student2));
 }
 //  5.a + 5.b
 boolean isClassmate(Student student1, Student student2) {
